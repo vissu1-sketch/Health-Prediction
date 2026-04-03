@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Multi Disease Health Predictor</h2>
+
+    <select id="disease">
+        <option value="diabetes">Diabetes</option>
+        <option value="heart">Heart Disease</option>
+    </select>
+
+    <input id="pregnancies" placeholder="Pregnancies">
+    <input id="glucose" placeholder="Glucose">
+    <input id="bp" placeholder="Blood Pressure">
+    <input id="skin" placeholder="Skin Thickness">
+    <input id="insulin" placeholder="Insulin">
+    <input id="bmi" placeholder="BMI">
+    <input id="dpf" placeholder="DPF">
+    <input id="age" placeholder="Age">
+
+    <button onclick="predict()">Predict</button>
+
+    <h3 id="result"></h3>
+    <p id="suggestion"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
